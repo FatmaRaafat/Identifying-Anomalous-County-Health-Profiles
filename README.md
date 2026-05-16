@@ -1,1 +1,3 @@
 # Identifying-Anomalous-County-Health-Profiles
+
+This project uses three unsupervised anomaly detection models (Isolation Forest, Local Outlier Factor, and One-Class SVM) to identify US counties with atypical health profiles from the 2018 County Health Rankings dataset. The ensemble approach identified 58 highly robust anomalous counties, with Kusilvak, Alaska emerging as the most anomalous (score: 0.835). Key findings reveal two distinct anomaly types: distressed rural counties (high mortality, poor food access, high poverty) and affluent urban paradoxes (low obesity but high crime and housing costs).
